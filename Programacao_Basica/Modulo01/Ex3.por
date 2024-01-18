@@ -1,14 +1,16 @@
 programa {
+  /* Ex003: Programa para ler um número inteiro qualquer e mostrar seu antecessor e sucessor. */
+
   funcao inicio() {
-    escreva("{ EXERCÍCIO 003 - Antes e depois }")
+    escreva("\n{ EXERCÍCIO 003 - Antes e depois }\n")
+
     escreva("\nMe diga um número: ")
     real numero
     leia(numero)
 
-    real antecessor = numero - 1
-    real sucessor = numero + 1
+    escreva("--------------------------------")
 
-    escreva("\nO antecessor de ", numero, " é o valor ", antecessor)
-    escreva("\nO sucessor de ", numero, " é o valor ", sucessor)
+    escreva("\nO antecessor de ", numero, " é o valor ", numero - 1)
+    escreva("\nO sucessor de ", numero, " é o valor ", numero + 1, "\n")
   }
 }
