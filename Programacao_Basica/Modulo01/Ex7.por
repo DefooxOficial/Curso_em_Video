@@ -1,8 +1,9 @@
 programa {
+  /* Ex007:  */
+
   funcao inicio() {
     escreva("{ EXERCÍCIO 007 - Pintando uma parede }")
-    escreva("\nInformação importante: um litro de tinta pinta 2m²")
-    escreva("\n--------------------------------------------------")
+    escreva("\nInformação importante: um litro de tinta pinta 2m²\n")
 
     escreva("\nLargura da parede: ")
     real largura
@@ -15,7 +16,9 @@ programa {
     real area = largura * altura
     real tinta = area / 2
 
+    escreva("\n--------------------------------------------------")
     escreva("\nUma parede de ", largura, " x ", altura, " tem uma área de ", area, " m²")
-    escreva("\nPrecisaremos de ", tinta, " latas de tinta.")
+    escreva("\nPrecisaremos de ", tinta, " litros de tinta.")
+    escreva("\n--------------------------------------------------\n")
   }
 }
