@@ -1,8 +1,12 @@
 programa {
+  /* Ex001: Programa para dar boas-vindas ao usuário */
+  
   funcao inicio() {
-    cadeia nome
     escreva("Olá! Qual é o seu nome? ")
-    leia(nome)
-    escreva("Tudo bem, ", nome, "? É um grande prazer te conhecer!")    
+
+    cadeia nome_usuario
+    leia(nome_usuario)
+
+    escreva("Tudo bem, ", nome_usuario, "? É um grande prazer te conhecer!")
   }
 }
