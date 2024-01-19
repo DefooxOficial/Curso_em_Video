@@ -1,7 +1,7 @@
 programa {
   inclua biblioteca Matematica
   funcao inicio() {
-    escreva("{ EXERCÍCIO 009 - Aumento Salarial }")
+    escreva("{ EXERCÍCIO 009 - Aumento Salarial }\n")
 
     escreva("\nNome do funcionário: ")
     cadeia nome
@@ -19,6 +19,6 @@ programa {
     real salario_reajustado_arredondado = Matematica.arredondar(salario_reajustado, 2)
 
     escreva("\n--------- RESULTADO ---------")
-    escreva("\n", nome, " ganhava R$", salario, " e depois de ", reajuste, "% de aumento, vai passar a ganhar R$", salario_reajustado_arredondado)
+    escreva("\n", nome, " ganhava R$", salario, " e depois de ", reajuste, "% de aumento, vai passar a ganhar R$", salario_reajustado_arredondado, "\n")
   }
 }
