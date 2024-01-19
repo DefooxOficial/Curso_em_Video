@@ -1,7 +1,7 @@
 programa {
   inclua biblioteca Matematica
   funcao inicio() {
-    escreva("{ EXERCÍCIO 008 - Desconto no produto }")
+    escreva("{ EXERCÍCIO 008 - Desconto no produto }\n")
 
     escreva("\nQual é o preço do produto? R$")
     real preco
@@ -10,6 +10,6 @@ programa {
     real preco_com_desconto = preco * 0.95
     real preco_com_desconto_arredondado = Matematica.arredondar(preco_com_desconto, 2)
 
-    escreva("Com 5% de desconto, o produto sai por R$", preco_com_desconto_arredondado)
+    escreva("\nCom 5% de desconto, o produto sai por R$", preco_com_desconto_arredondado, "\n")
   }
 }
