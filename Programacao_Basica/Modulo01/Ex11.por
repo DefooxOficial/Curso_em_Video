@@ -1,7 +1,7 @@
 programa {
   inclua biblioteca Texto
   funcao inicio() {
-    escreva("{ EXERCÍCIO 011 - Analisando sua cidade }")
+    escreva("{ EXERCÍCIO 011 - Analisando sua cidade }\n")
 
     escreva("\nEm que cidade você mora? ")
     cadeia nome_cidade
@@ -12,9 +12,9 @@ programa {
     cadeia sem_espacos = Texto.substituir(nome_cidade, " ", "")
     inteiro tamanho_nome_cidade = Texto.numero_caracteres(sem_espacos)
 
-    escreva("---------- ANALISANDO ----------")
+    escreva("\n---------- ANALISANDO ----------")
     escreva("\nVocê mora na cidade ", nome_cidade_maiusculo)
     escreva("\nA primeira letra é ", primeira_letra_nome_cidade)
-    escreva("\nE contém ", tamanho_nome_cidade, " caracteres.")
+    escreva("\nE contém ", tamanho_nome_cidade, " caracteres.\n")
   }
 }
