@@ -12,7 +12,7 @@ programa {
     real hora_atual = Calendario.hora_atual()
     real hora_filme = 13
 
-    se (hora_atual == hora_filme) {
+    se (hora_atual == hora_filme ou hora_atual < hora_filme e hora_atual >= hora_filme - 1) {
       escreva("\nQuantos reais você tem? R$")
       real dinheiro
       leia(dinheiro)
