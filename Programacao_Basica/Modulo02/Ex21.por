@@ -6,12 +6,14 @@ programa {
     real numero
     leia(numero)
 
+    escreva("\nO número ", numero, " é ")
+
     se (numero > 0) {
-      escreva("\nO número ", numero, " é POSITIVO.\n")
+      escreva("POSITIVO.\n")
     } senao se (numero == 0) {
-      escreva("\nO número ", numero, " é NULO.\n")
+      escreva("NULO.\n")
     } senao {
-      escreva("\nO número ", numero, " é NEGATIVO.\n")
+      escreva("NEGATIVO.\n")
     }
   }
 }
