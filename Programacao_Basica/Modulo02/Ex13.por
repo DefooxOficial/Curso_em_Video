@@ -1,5 +1,6 @@
 programa {
   /* Ex013 - Escreva um programa que leia duas notas digitadas pelo usuário e calcule a sua média. Se a nota for maior ou igual do que 7, escreva uma mensagem de parabéns. */
+  inclua biblioteca Matematica
   
   funcao inicio() {
     escreva("{ EXERCÍCIO 013 - Bons alunos merecem parabéns }\n")
@@ -20,6 +21,6 @@ programa {
       escreva("MEUS PARABÉNS! ")
     }
 
-    escreva("A sua média final foi de ", media, "\n")
+    escreva("A sua média final foi de ", Matematica.arredondar(media, 2), "\n")
   }
 }
