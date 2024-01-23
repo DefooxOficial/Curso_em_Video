@@ -9,7 +9,8 @@ programa {
     se (numero > 0) {
       escreva("O inverso de ", numero, " é igual a ", 1 / numero)
     } senao {
-      escreva("O oposto de ", numero, " é igual a ", numero - numero + numero)
+      // escreva("O oposto de ", numero, " é igual a ", numero - numero + numero)
+      escreva("O oposto de ", numero, " é igual a ", numero * (-1))
     }
   }
 }
